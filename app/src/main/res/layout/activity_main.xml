@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextManagerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Manager ID"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"/>
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Price"/>
+
+    <EditText
+        android:id="@+id/editTextOpenTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Open Time"/>
+
+    <EditText
+        android:id="@+id/editTextCloseTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Close Time"/>
+
+    <Button
+        android:id="@+id/buttonSelectImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Images"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+</LinearLayout>

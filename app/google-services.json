@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573928989787",
+    "project_id": "gsi-quickbook",
+    "storage_bucket": "gsi-quickbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573928989787:android:7848474a074a3215d04b7e",
+        "android_client_info": {
+          "package_name": "com.shubhamtripz.gsi_quickbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgI1jB_9FvamUyo2KWZLWnokYyt2kbly4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

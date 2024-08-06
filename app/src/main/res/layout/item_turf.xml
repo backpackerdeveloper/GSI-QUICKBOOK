@@ -1,0 +1,36 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="turf"
+            type="com.shubhamtripz.gsi_quickbook.Turf" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{turf.name}"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTextView"
+            android:text="@{turf.city}"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bookButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="BOOK" />
+
+    </RelativeLayout>
+</layout>
