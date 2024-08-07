@@ -1,14 +1,29 @@
-# Quick Book
+# Quick Book - GSI Internship Contribution
 
-## Overview
-**Quick Book** is an Android application that allows users to book nearby sports venues (referred to as turfs). The app offers functionality for both regular users, who can book turfs, and for turf owners or managers, who can list their turfs on the platform.
+**Note: This repository contains only my contribution code to the Quick Book Android Project during my GSI internship, not the full app project code of Quick Book.**
+
+## Quick Book
+
+Quick Book is an Android application designed to help users book nearby sports venues (turfs) easily. The app offers features for both normal users and turf owners or managers.
+
+![Quick Book Logo](https://via.placeholder.com/150)
 
 ## Features
-- **User Booking**: Users can search for and book nearby turfs based on their location.
-- **Turf Listing**: Turf owners or managers can list their turfs on the app, making them available for booking by users.
-- **Location-Based Search**: Users can find turfs nearby their location using the app's search functionality.
+
+### For Normal Users:
+- **Book Nearby Turfs**: Users can easily find and book sports venues near their location.
+- **Secure Payment System**: Ensures that all bookings are made securely.
+
+### For Turf Owners/Managers:
+- **List Your Turf**: Owners or managers can list their turfs on the app for users to find and book.
 
 ## Screenshots
-![Home Screen](https://example.com/home_screen.png)
-![Turf List](https://example.com/turf_list.png)
-![Booking Screen](https://example.com/booking_screen.png)
+
+### Home Screen
+![Home Screen](https://via.placeholder.com/300x600)
+
+### Booking Screen
+![Booking Screen](https://via.placeholder.com/300x600)
+
+### Turf Listing Screen
+![Turf Listing Screen](https://via.placeholder.com/300x600)
