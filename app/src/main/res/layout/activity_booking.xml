@@ -11,6 +11,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <!-- Display Turf Details -->
         <TextView
             android:id="@+id/nameTextView"
             android:layout_width="wrap_content"
@@ -47,17 +48,48 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal" />
 
-        <Button
-            android:id="@+id/datePickerButton"
-            android:layout_width="wrap_content"
+        <!-- Dates Selection -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Date" />
+            android:weightSum="3">
 
         <TextView
-            android:id="@+id/selectedDateTextView"
+            android:id="@+id/todayDateTextView"
             android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="No date selected" />
+            android:text="08" />
+
+        <TextView
+            android:id="@+id/tomorrowDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="09" />
+
+        <TextView
+            android:id="@+id/dayAfterTomorrowDateTextView"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10" />
+
+        </LinearLayout>
+
+        <!-- Time Slots -->
+        <LinearLayout
+            android:id="@+id/slotsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
 
         <Button
             android:id="@+id/confirmButton"
